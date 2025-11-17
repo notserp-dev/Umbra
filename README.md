@@ -37,11 +37,16 @@
 <img src="screenshots/sidebar1.jpg" alt="Sidebar Style">
 
 ## How to Install
+Since Umbra is not available in the Geode Library yet, you must install it manually.
+
 1. Install [Geode](https://geode-sdk.org) if you haven't already.
-2. Open Geometry Dash.
-3. Click the Geode button.
-4. Navigate to the **Download** tab and search **"Umbra"**.
-5. Click **View**, then **Download**. After restarting, Umbra will be ready to use!
+2. Download the latest Umbra release from the **Releases** section of this repository.
+3. Locate your Geometry Dash **mods** folder:
+- **Windows:** `%localappdata%/GeometryDash/geode/mods`
+- **macOS:** `~/Library/Application Support/GeometryDash/geode/mods`
+- **Android:** `/Android/data/com.robtopx.geometryjump/geode/mods` (path may vary)
+4. Place the downloaded `.geode` file into the **mods** folder.
+5. Launch Geometry Dash — Geode will automatically load Umbra!
 
 ## How to Use
 1. On PC, press `TAB` to toggle the mod menu.
