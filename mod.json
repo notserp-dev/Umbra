@@ -6,32 +6,36 @@
 		"android": "2.2074",
 		"ios": "2.2074"
 	},
-	"version": "v1.5.0",
+	"version": "v1.0.0-early",
 	"id": "eclipse.eclipse-menu",
-	"name": "Eclipse",
+	"name": "Umbra",
 	"links": {
-		"homepage": "https://eclipse.menu",
-		"source": "https://github.com/EclipseMenu/EclipseMenu",
-		"community": "https://discord.gg/NnpwFRDMND"
+		"homepage": "",
+		"source": "https://github.com/notserp-dev/Umbra",
+		"community": ""
 	},
 	"api": { "include": [ "include/*.hpp" ] },
-	"tags": ["cheat", "gameplay", "utility", "customization", "interface"],
-	"developers": ["Eclipse Team", "ninXout", "Prevter", "maxnu", "Firee", "SpaghettDev"],
-	"description": "A next-generation mod menu for Geometry Dash.",
+	"tags": [ "cheat", "gameplay", "utility", "customization", "interface" ],
+	"developers": [ "notserp", "Eclipse Team", "ninXout", "Prevter", "maxnu", "Firee", "SpaghettDev" ],
+	"description": "A next-generation mod menu for Geometry Dash — a modern fork of the Eclipse project.",
 	"early-load": true,
-	"incompatibilities": [{
-		"id": "prevter.openhack",
-		"version": "*",
-		"importance": "superseded"
-	}, {
-		"id": "maxnu.gd_mega_overlay",
-		"version": "*",
-		"importance": "superseded"
-	}, {
-		"id": "ninxout.crystal_client",
-		"version": "*",
-		"importance": "superseded"
-	}],
+	"incompatibilities": [
+		{
+			"id": "prevter.openhack",
+			"version": "*",
+			"importance": "superseded"
+		},
+		{
+			"id": "maxnu.gd_mega_overlay",
+			"version": "*",
+			"importance": "superseded"
+		},
+		{
+			"id": "ninxout.crystal_client",
+			"version": "*",
+			"importance": "superseded"
+		}
+	],
 	"resources": {
 		"files": [
 			"resources/Blur/*.glsl",
@@ -49,15 +53,18 @@
 			"UISheet": [ "resources/UISheet/*.png" ]
 		}
 	},
-	"dependencies": [{
-		"id": "eclipse.ffmpeg-api",
-		"version": ">=1.2.0",
-		"importance": "suggested"
-	}, {
-		"id": "dankmeme.globed2",
-		"version": ">=1.8.5",
-		"importance": "suggested"
-	}],
+	"dependencies": [
+		{
+			"id": "eclipse.ffmpeg-api",
+			"version": ">=1.2.0",
+			"importance": "suggested"
+		},
+		{
+			"id": "dankmeme.globed2",
+			"version": ">=1.8.5",
+			"importance": "suggested"
+		}
+	],
 	"settings": {
 		"legacy-render": {
 			"name": "Use Legacy rendering",
@@ -75,13 +82,13 @@
 			"type": "custom:keybind",
 			"name": "Menu Keybind",
 			"description": "The keybind to open the Eclipse menu.",
-			"platforms": ["win", "mac"]
+			"platforms": [ "win", "mac" ]
 		},
 		"menu-style": {
 			"name": "Menu Style",
 			"description": "Choose the style of the Eclipse menu.",
 			"type": "string",
-			"one-of": ["ImGui", "Cocos"],
+			"one-of": [ "ImGui", "Cocos" ],
 			"default": {
 				"win": "ImGui",
 				"mac": "ImGui",
