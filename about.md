@@ -1,5 +1,5 @@
-# Eclipse Menu
-A **next-generation** mod menu for Geometry Dash.
+# Umbra
+A **next-generation** mod menu for Geometry Dash — a modern fork of the Eclipse project. 
 
 ## How to use 
 1. On PC, press `TAB` to open and close the mod menu. For mobile, you should see a ball, click on that to open or close the menu!
@@ -18,7 +18,7 @@ A **next-generation** mod menu for Geometry Dash.
 - Theme Customizability (you can theme Eclipse Menu however you want!)
 - Crossplatform support (Windows, macOS, Android)
 - Community Translations (check the [translations repository](https://github.com/EclipseMenu/translations) on how to contribute)
-- An API for other mods to interact with Eclipse
+- An API for other mods to interact with Umbra
 
 ## Credits
 This mod menu would not be possible without the developers from other mod menus teaming up together!
@@ -28,7 +28,7 @@ This mod menu would not be possible without the developers from other mod menus 
 - [Firee](https://github.com/FireMario211) ([Prism Menu](https://github.com/FireMario211/Prism-Menu))
 - [SpaghettDev](https://github.com/SpaghettDev)
 
-Additionally, thank you to our testers, contributors, and supporters for improving and helping make Eclipse Menu possible!
+Additionally, thank you to testers, contributors, and supporters for improving and helping make Eclipse Menu possible!
 - [Tallen](https://tallensuired.carrd.co/) - Tester, First Donor, and awesome person!
 - [hiimjustin000](https://github.com/hiimjustin000) - Contributor
 - [RayDeeUx](https://github.com/RayDeeUx) - Contributor
@@ -44,7 +44,7 @@ Additionally, thank you to our testers, contributors, and supporters for improvi
 - [arvFlash](https://github.com/arvFlash) - Catppuccin Macchiato theme
 
 ## License
-**Eclipse Menu** is created under the **[Eclipse Public License v2.0](https://choosealicense.com/licenses/epl-2.0/)**, read more by clicking on the highlighted name.
+**Umbra** is created under the **[Eclipse Public License v2.0](https://choosealicense.com/licenses/epl-2.0/)**, read more by clicking on the highlighted name.
 
 ## Other notes
 Send any suggestions or report any issues to the **Github Repository** or our **Discord Server**. We hope you enjoy using this mod!
