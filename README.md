@@ -1,6 +1,6 @@
 <div align="center">
    <a href="https://github.com/notserp-dev/Umbra">
-      <img src="logo.png" alt="Umbra Logo" width="120" height="120">
+      <img src="6088055b-589a-407a-8cc3-0168c802aa4c.png" alt="Umbra Logo" width="120" height="120">
    </a>
    <h1 align="center">Umbra</h1>
    <p align="center">
@@ -17,7 +17,7 @@
     <a href="LICENSE.md">
       <img src="https://img.shields.io/github/license/notserp-dev/Umbra" alt="License">
     </a>
-    <a href="https://github.com/YourUser/Umbra/issues">
+    <a href="https://github.com/notserp-dev/Umbra/issues">
       <img src="https://img.shields.io/github/issues/notserp-dev/Umbra" alt="Issues">
     </a>
 </div>
